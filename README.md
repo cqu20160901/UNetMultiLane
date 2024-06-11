@@ -1,5 +1,5 @@
 # UNetMultiLane
-UNetMultiLane 多车道线、车道线类型识别，pythorch训练代码。由于涉及到一些原因，进行了简化处理。
+UNetMultiLane 多车道线、车道线类型识别，自我学习使用，没有经过大量测试过，不免有问题，不喜不扰。
 
 # 模型结构说明
 
