@@ -20,5 +20,3 @@ UNetMultiLane 多车道线、车道线类型识别，pythorch训练代码。由�
 # 分割效果
 
 ![image](https://github.com/cqu20160901/UNetMultiLane_onnx_tensorRT_rknn_horizon/blob/main/onnx/test_result.jpg)
-
-![image](https://github.com/cqu20160901/UNetMultiLane_onnx_tensorRT_rknn_horizon/assets/22290931/b265e79a-598e-4b24-9f9a-8bafdc0edd9c)
