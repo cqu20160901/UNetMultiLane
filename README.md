@@ -17,6 +17,24 @@ UNetMultiLane 多车道线、车道线类型识别，自我学习使用，没有
 **本仓库提供了20张图像和标签，可以直接训练起来。**
 
 
+说明示例：
+
+train.txt
+
+/JPEGImages/0_Road001_Trim003_frames/00045.jpg /Annotations/0_Road001_Trim003_frames/00045.png 0 0 0 1 1 1 1 1 0 0 0 1 2 10 2 1
+
+![00045](https://github.com/cqu20160901/UNetMultiLane/assets/22290931/373173e9-ff33-41f4-a4f9-94ee7b071691)
+
+标签说明：
+/JPEGImages/0_Road001_Trim003_frames/00045.jpg   图片
+/Annotations/0_Road001_Trim003_frames/00045.png  分割标签（png的p模式存储的标签） 
+
+0 0 0 1 1 1 1 1 0 0 0 1 2 10 2 1 共十六个值，前8个是对应的车道（8条车道线，对应的顺序是7,5,3,1,2,4,6,8），后8个值是线的类别（10个类别）
+
+0 0 0 1 1 1  1 1（共8条车道线，左起前三条000无车道线，11111有到车道）
+0 0 0 1 2 10 2 1（每条车道线对应的类型，左起前三条000无车道线，1 2 10 2 1分别对应的车道线类型）
+
+
 # 分割效果
 
 ![image](https://github.com/cqu20160901/UNetMultiLane_onnx_tensorRT_rknn_horizon/blob/main/onnx/test_result.jpg)
