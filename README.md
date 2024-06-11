@@ -20,3 +20,8 @@ UNetMultiLane 多车道线、车道线类型识别，自我学习使用，没有
 # 分割效果
 
 ![image](https://github.com/cqu20160901/UNetMultiLane_onnx_tensorRT_rknn_horizon/blob/main/onnx/test_result.jpg)
+
+
+# 部署参考
+
+[部署](https://github.com/cqu20160901/UNetMultiLane_onnx_tensorRT_rknn_horizon)
