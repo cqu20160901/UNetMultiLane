@@ -23,7 +23,6 @@ train.txt
 
 /JPEGImages/0_Road001_Trim003_frames/00045.jpg /Annotations/0_Road001_Trim003_frames/00045.png 0 0 0 1 1 1 1 1 0 0 0 1 2 10 2 1
 
-![00045](https://github.com/cqu20160901/UNetMultiLane/assets/22290931/373173e9-ff33-41f4-a4f9-94ee7b071691)
 
 标签说明：
 /JPEGImages/0_Road001_Trim003_frames/00045.jpg   图片
@@ -34,6 +33,18 @@ train.txt
 0 0 0 1 1 1  1 1（共8条车道线，左起前三条000无车道线，11111有到车道）
 
 0 0 0 1 2 10 2 1（每条车道线对应的类型，左起前三条000无车道线，1 2 10 2 1分别对应的车道线类型）
+
+
+
+00045.jpg 图像
+
+![00045](https://github.com/cqu20160901/UNetMultiLane/assets/22290931/373173e9-ff33-41f4-a4f9-94ee7b071691)
+
+
+00045.png  分割标签
+
+![00045](https://github.com/cqu20160901/UNetMultiLane/assets/22290931/aace1714-fce9-4778-9219-44d25cc3b8e2)
+
 
 
 # 分割效果
